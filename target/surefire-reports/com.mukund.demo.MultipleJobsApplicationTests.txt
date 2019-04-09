@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.mukund.demo.MultipleJobsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.765 s <<< FAILURE! - in com.mukund.demo.MultipleJobsApplicationTests
+contextLoads(com.mukund.demo.MultipleJobsApplicationTests)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute ApplicationRunner
+Caused by: java.lang.Exception: Require parameter job not provided
+
